@@ -1,0 +1,74 @@
+[
+    {
+        "id": 2,
+        "name": "Yoga Blanket Colorful",
+        "price": 25,
+        "rating": 5,
+        "img": "https://nordis.true-emotions.studio/yoga-fit/wp-content/uploads/sites/12/2018/03/scs-400x400.png",
+        "description": "Recycled wool blanket are extremely soft and the densest material used to produce yoga blankets. These very durable blankets can be used in all style of yoga where a bolster or blankets is used. Blankets range in content from 50% to 100% wool and a Polyester blend"
+    },
+    {
+        "id": 3,
+        "name": "Yoga Foam Blocks",
+        "price": 13,
+        "rating": 4,
+        "img": "https://nordis.true-emotions.studio/yoga-fit/wp-content/uploads/sites/12/2018/03/3rf-400x400.png",
+        "description": "One of the most popular yoga props to use in class is the yoga block. Made from foam, bamboo, wood or cork, the block is often used as an extension of the arms, but can also support the back, head and hips to help the body settle into a pose"
+    },
+    {
+        "id": 4,
+        "name": "Yoga Bags",
+        "price": 25,
+        "rating": 5,
+        "img": "https://nordis.true-emotions.studio/yoga-fit/wp-content/uploads/sites/12/2018/03/www3-400x400.png ",
+        "description": "the basic rope straps that most yoga mats come with arent enough to carry your mat if you use it often, and they easily break We definitely recommend investing in a mat bag instead, whether or not youre in it for the long haul"
+    },
+    {
+        "id": 1,
+        "name": "Massage Ball Set",
+        "price": 25,
+        "rating": 5,
+        "img": "https://nordis.true-emotions.studio/yoga-fit/wp-content/uploads/sites/12/2018/03/sccc-400x400.png",
+        "description": "The Massage Ball Set includes two single massage balls and one double massage ball to use for restorative massage, myofascial release and movements that help release tension and improve flexibility in targeted areas such as calves, thighs, lower back, spine, neck and shoulders"
+    },
+    {
+        "id": 5,
+        "name": "Massage Ball",
+        "price": 7,
+        "rating": 3,
+        "img": "https://nordis.true-emotions.studio/yoga-fit/wp-content/uploads/sites/12/2018/03/ax-400x400.png",
+        "description": "Like a foam roller, a massage ball can also be used to help release tension in our achy muscles after long hours spent in the office or after a workout. One of the differences being that it can get to those hard to reach areas such as the upper back, buttocks and feet"
+    },
+    {
+        "id": 6,
+        "name": "Reehut Yoga Block",
+        "price": 25,
+        "rating": 5,
+        "img": "https://nordis.true-emotions.studio/yoga-fit/wp-content/uploads/sites/12/2018/03/ww1-400x400.png",
+        "description": "Yoga blocks make poses more accessible to you by providing length, support, and ensuring proper alignment. They also help yogis looking to advance their practice by acting as a tool for strength building and balance in more advanced postures"
+    },
+    {
+        "id": 7,
+        "name": "Water bottle",
+        "price": 25,
+        "rating": 5,
+        "img": "https://i.ibb.co/RDgPVBN/images-removebg-preview.png",
+        "description": "Water is an inorganic, transparent, tasteless, odorless, and nearly colorless chemical substance, which is the main constituent of Earths hydrosphere and the fluids of all known living organisms"
+    },
+    {
+        "id": 8,
+        "name": "Alarm Clock",
+        "price": 25,
+        "rating": 5,
+        "img": "https://i.ibb.co/KhTpsss/76552102-vector-realistic-golden-alarm-clock-isolated-on-transparent-background-removebg-preview.png",
+        "description": "An alarm clock is a clock that is designed to alert an individual or group of individuals at a specified time. The primary function of these clocks is to awaken people from their night sleep or short naps"
+    },
+    {
+        "id": 9,
+        "name": "Dumbbells",
+        "price": 25,
+        "rating": 5,
+        "img": "https://i.ibb.co/R6DTyrP/263-2633939-transparent-weights-clipart-dumbbells-5-lbs-hd-png-removebg-preview.png",
+        "description": "Dumbbells are one of the most widely used weight-training equipment pieces. One dumbbell consists of two equal weights that are attached to a handle, and the weights can be fixed or removable"
+    }
+]

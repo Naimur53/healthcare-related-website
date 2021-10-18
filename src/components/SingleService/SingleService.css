@@ -1,0 +1,12 @@
+.card-wrapper{ 
+    transition: .3s;
+}
+.card-wrapper:hover{
+ background-color: rgba(255, 255, 255, 0.09)!important;
+}
+.card-btn{  
+    background-color:#ff00cc;
+}
+.card-btn:hover{
+    opacity: .8;
+}

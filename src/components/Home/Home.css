@@ -1,0 +1,23 @@
+.slider-element{
+    height: 90vh; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+.slick-arrow{
+    display: none!important;
+}
+.first-slide{
+    background-image: url('https://wallpaperaccess.com/full/654501.jpg');
+    
+}
+.second-slide{
+    background-image: url('https://wallpaperbat.com/img/499824-sunrise-meditation-1920x1080.jpg');
+}
+.third-slide{
+    background-image: url('https://images.unsplash.com/photo-1508672019048-805c876b67e2?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bWVkaXRhdGlvbnxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&w=1000&q=80');
+}
+.slider-content{
+    backdrop-filter: blur(30px);
+}
