@@ -1,4 +1,6 @@
 import React from 'react';
+import { Nav } from 'react-bootstrap';
+import { HashLink } from 'react-router-hash-link';
 import './SingleService.css';
 
 const SingleService = props => {
@@ -12,7 +14,10 @@ const SingleService = props => {
                     <h5 className="card-title fw-normal">{description.slice(0, 30)}</h5>
                     <h4 className="card-text">{price}</h4>
                 </div>
-                <button className='py-2 rounded-3 border-0  card-btn'>More Details</button>
+                <Nav.Link className='py-2 rounded-3 border-0 text-center text-white card-btn' as={HashLink} to={`/home/${id}`}>
+                    More Details
+
+                </Nav.Link>
             </div>
         </div>
     );

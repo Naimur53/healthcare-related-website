@@ -1,8 +1,12 @@
 import React from 'react';
-import { Container, Image, Nav, Navbar } from 'react-bootstrap';
+import { Container, Nav, Navbar } from 'react-bootstrap';
+import { NavLink } from 'react-router-dom';
+import useAuth from '../../hooks/useAuth';
 import './MainNav.css'
 
 const MainNav = () => {
+    const { user, handleLogOut } = useAuth();
+    console.log(user, 'nav');
     return (
         <>
             <Navbar collapseOnSelect expand="lg" className='navbar' variant="dark" sticky='top'>
@@ -12,16 +16,21 @@ const MainNav = () => {
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav className="mx-auto">
-                            <Nav.Link href="#features">Home</Nav.Link>
-                            <Nav.Link href="#features">About us</Nav.Link>
-                            <Nav.Link href="#features">Service</Nav.Link>
-                            <Nav.Link href="#pricing">Pricing</Nav.Link>
+                            <Nav.Link activeClassName="text-pink" as={NavLink} to="/home">Home</Nav.Link>
+                            <Nav.Link activeClassName="text-pink" as={NavLink} to="/ContactUs">Contact us</Nav.Link>
+                            <Nav.Link activeClassName="text-pink" as={NavLink} to="/aboutUs">About us</Nav.Link>
                         </Nav>
-                        <Nav>
-                            <Nav.Link href="#deets">More deets</Nav.Link>
-                            <Nav.Link eventKey={2} href="#memes">
-                                Dank memes
-                            </Nav.Link>
+                        <Nav className='ms-auto'>
+                            {
+                                user.displayName ? <button className='btn btn-danger me-4   fw-light' onClick={handleLogOut}>logOut</button> : <Nav.Link as={NavLink} to="/signup">Sign up</Nav.Link>
+                            }
+                            {
+                                user.displayName ?
+                                    <img style={{ width: '40px' }} className='rounded-circle' src={user.photoURL} alt="" /> : <Nav.Link as={NavLink} to="/login">Log in</Nav.Link>
+                            }
+                            {
+                                user.displayName && <span className='my-auto ms-3'>{user.displayName}</span>
+                            }
                         </Nav>
                     </Navbar.Collapse>
                 </Container>

@@ -3,7 +3,7 @@ import { useEffect, useState } from 'react';
 const useCard = () => {
     const [data, setData] = useState([]);
     useEffect(() => {
-        fetch('./fakeData.json')
+        fetch('https://naimur53.github.io/health-api/fakeData.json')
             .then(res => res.json())
             .then(result => setData(result))
     }, [])
