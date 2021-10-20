@@ -53,7 +53,7 @@ const Login = () => {
                 < input style={{ borderColor: '#ff00c9' }} className='w-100  rounded px-3 mb-4 py-2 border-1 bg-transparent' placeholder='password' {...register("password", { pattern: /^(?:(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).*)$/ })} />
                 <br />
                 {/* errors will return when field validation fails  */}
-                {errors.password && <span className='text-danger  d-inline-block mb-2 '>enter valid pass</span>}
+                {errors.password && <span className='text-danger  d-inline-block mb-2 '>Enter valid password with uppercase and number</span>}
                 <br />
 
                 <input style={{ borderColor: '#ff00c9' }} className=' w-100 text-white rounded px-3  py-2 border-1 bg-transparent' value='Log In' type="submit" />

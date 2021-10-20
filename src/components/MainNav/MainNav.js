@@ -6,12 +6,11 @@ import './MainNav.css'
 
 const MainNav = () => {
     const { user, handleLogOut } = useAuth();
-    console.log(user, 'nav');
     return (
         <>
             <Navbar collapseOnSelect expand="lg" className='navbar' variant="dark" sticky='top'>
                 <Container>
-                    <Navbar.Brand href="#home" >
+                    <Navbar.Brand className='m-0 logo-container' href="#home" >
                         <img className='img-fluid w-50' src="https://nordis.true-emotions.studio/yoga-fit/wp-content/uploads/sites/12/2018/06/wiyog.svg" alt="" /></Navbar.Brand>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav">
